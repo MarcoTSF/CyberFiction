@@ -443,3 +443,7 @@ gsap.to("#page3",{
     scroller:`#main`
   }
 })
+
+setTimeout(function() {
+  document.querySelector('.loading-overlay').style.display = 'none';
+}, 10000);
